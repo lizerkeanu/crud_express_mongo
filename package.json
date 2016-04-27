@@ -1,0 +1,32 @@
+{
+  "name": "paquete",
+  "version": "1.0.0",
+  "description": "mi paquete json",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "lizerkeanu"
+  },
+  "keywords": [
+    "crud",
+    "mongodb",
+    "express",
+    "nodejs",
+    "mongoose"
+  ],
+  "author": "Kenyi Alvarez",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "ejs": "^2.4.1",
+    "express": "^4.13.4",
+    "mongodb": "^2.1.17"
+  },
+  "devDependencies": {
+    "nodemon": "^1.9.1"
+  }
+}
